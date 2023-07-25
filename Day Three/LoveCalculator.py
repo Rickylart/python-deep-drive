@@ -24,7 +24,7 @@ love_score = int(str(true) + str(love))
 
 if love_score < 10 or love_score > 90:
     print(f"Your score is {love_score}, you go together like coke and mentos")
-elif love_score > 39 and love_score < 51:
+elif 39 < love_score < 51:
     print(f"Your score is {love_score}, you are alright together")
 else:
     print(f"Your score is {love_score}")
